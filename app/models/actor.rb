@@ -1,5 +1,5 @@
 class Actor < ApplicationRecord
 
     has_many :comments
-    # belongs_to :director 
+    belongs_to :director 
 end
